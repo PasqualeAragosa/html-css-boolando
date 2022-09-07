@@ -140,9 +140,33 @@ img {
 
 /* #region Main */
 /* #endregion Main */
-.t_shirt:hover img {
-    background-image: url("../img/1b.webp");
-    color: aqua;
+.overlay {
+    position: absolute;
+    top: 0;
+    
+}
+.man_1:hover .overlay {
+    display: none;
+}
+
+.woman_1:hover .overlay {
+    display: none;
+}
+
+.woman_2:hover .overlay {
+    display: none;
+}
+
+.man_2:hover .overlay {
+    display: none;
+}
+
+.woman_3:hover .overlay {
+    display: none;
+}
+
+.woman_4:hover .overlay {
+    display: none;
 }
 /* #region Footer */
 #site_footer {
