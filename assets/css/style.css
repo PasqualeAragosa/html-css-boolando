@@ -140,7 +140,10 @@ img {
 
 /* #region Main */
 /* #endregion Main */
-
+.t_shirt:hover img {
+    background-image: url("../img/1b.webp");
+    color: aqua;
+}
 /* #region Footer */
 #site_footer {
     background-color: var(--bl-dark);
