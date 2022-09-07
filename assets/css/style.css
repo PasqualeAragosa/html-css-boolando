@@ -141,4 +141,32 @@ img {
 /* #region Main */
 /* #endregion Main */
 
+/* #region Footer */
+#site_footer {
+    background-color: var(--bl-dark);
+    color: var(--bl-bg);
+    font-size: 1.25rem;
+}
+
+#site_footer .container {
+    padding: 3rem 0;
+}
+
+#site_footer .row {
+    justify-content: space-between;
+}
+
+.company strong {
+    font-size: 1.5rem;
+}
+
+.company span{
+    padding: 0 10px;
+}
+
+#site_footer i {
+    color: var(--bl-bg);
+    padding: 0 3px;
+}
+/* #endregion Footer */
 /* #endregion Body */
