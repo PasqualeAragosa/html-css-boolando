@@ -5,34 +5,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <header id="site_header">
+        <nav class="row menu ">
+            <div class="col-4 categories">
+                <a href="#">Donna</a>
+                <a href="#">Uomo</a>
+                <a href="#">Bambini</a>
+            </div>
+            <!-- /.col-4 -->
+            <div class="col-4 logo">
+                <img src="./assets/img/boolean-logo.png" alt="logo boolean con rombo">
+            </div>
+            <!-- /.col-4 -->
+            <div class="col-4 account">
+                <i class="fa-regular fa-user"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+            <!-- /.col-4 -->
+        </nav>
+        <!-- /.row -->
+    </header>
+    <!-- /#site_header -->
+
+    <main id="site_main">
         <div class="container">
-            <nav class="row menu">
-                <div class="col-4">
-                    <a href="#">Donna</a>
-                    <a href="#">Uomo</a>
-                    <a href="#">Bambini</a>
+            <div class="row">
+                <div class="col-4 card">
+                    <img src="./assets/img/1.webp" alt="">
+                    <span class="brand">Levi's</span>
+                    <span class="dress"><strong>RELAXED FIT TEE UNISEX</strong></span>
+                    <span class="price new">14.99 €</span>
+                    <span class="price old">29,99 €</span>
                 </div>
                 <!-- /.col-4 -->
-                <div class="col-4">
-                    <img src="./assets/img/boolean-logo.png" alt="logo boolean con rombo">
-                </div>
-                <!-- /.col-4 -->
-                <div class="col-4">
-                    Lorem, ipsum dolor.
-                </div>
-                <!-- /.col-4 -->
-            </nav>
+            </div>
             <!-- /.row -->
         </div>
         <!-- /.container -->
-    </header>
-    <!-- /#site_header -->
-    <main id="site_main"></main>
+    </main>
     <!-- /#site_main -->
+
     <footer id="site_footer"></footer>
     <!-- /#site_footer -->
 </body>

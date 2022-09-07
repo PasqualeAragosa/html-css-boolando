@@ -35,13 +35,43 @@ body {
 /* #endregion Common */
 
 /* #region Body */
+
+/* #region Header */
 .menu {
     background-color: var(--bl-orange);
-    height: 100px;
     text-align: center;
+    padding: 1rem;
+
 }
 
-img {
-    max-width: 30%;
+.categories {
+    padding: 1rem;
 }
+
+.categories a{
+    text-decoration: none;
+    color: var(--bl-font-header);
+    font-size: 1.5rem;
+    padding: 0 0.5rem;
+}
+
+.logo {
+    padding: 0.5rem;
+}
+
+.logo img{
+    max-width: 25%;
+}
+
+.account i {
+    color: var(--bl-font-header);
+    font-size: 1.5rem;
+    padding: 1rem 0.5rem;
+}
+/* #endregion Header */
+
+/* #region Main */
+
+/* #endregion Main */
+
 /* #endregion Body */
