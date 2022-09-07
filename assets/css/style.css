@@ -17,12 +17,14 @@
 
 body {
     background-color: var(--bl-bg);
+    font-family: 'Inter', sans-serif;
+
 }
 
 .container {
     width: 80%;
-    margin: auto;
-    background-color: red;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 .row {
@@ -31,6 +33,72 @@ body {
 
 .col-4 {
     width: calc((100% / 12) * 4);
+}
+
+.card {
+    margin: 3rem 0;
+    padding: 1rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.img {
+    position: relative;
+}
+
+.square_wh {
+    background-color: var(--bl-bg);
+    color: var(--bl-dark);
+    font-size: 1.5rem;
+    padding: 12px;
+    position: absolute;
+    top: 2%;
+    right: 0;
+}
+
+.rectangle_rd {
+    background-color: var(--bl-red);
+    color: var(--bl-bg);
+    font-size: 1.25rem;
+    padding: 6px;
+    position: absolute;
+    bottom: 10%;
+}
+
+.rectangle_gr {
+    background-color: var(--bl-green);
+    color: var(--bl-bg);
+    font-size: 1.25rem;
+    margin-left: 1.5rem;
+    padding: 6px;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+
+.brand {
+    color: var(--bl-dark);
+    font-size: 1.25rem;
+}
+
+.dress {
+    color: var(--bl-dark);
+    font-size: 1.25.rem;
+}
+
+.price {
+    font-size: 1.25rem;
+}
+
+.new {
+    color: var(--bl-red);
+}
+
+.old {
+    color: var(--bl-dark);
+    text-decoration: line-through;
 }
 /* #endregion Common */
 
@@ -71,7 +139,6 @@ body {
 /* #endregion Header */
 
 /* #region Main */
-
 /* #endregion Main */
 
 /* #endregion Body */
