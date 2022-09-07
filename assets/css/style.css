@@ -1,0 +1,47 @@
+/* #region Common */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bl-dark: #1A1A1A;
+    --bl-bg-card: #E5E5E5;
+    --bl-font-header: #E9DFD8;
+    --bl-orange: #FF6900;
+    --bl-bg: #FFFFFF;
+    --bl-red: #FF2828;
+    --bl-green: #008000;
+}
+
+body {
+    background-color: var(--bl-bg);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: red;
+}
+
+.row {
+    display: flex;
+}
+
+.col-4 {
+    width: calc((100% / 12) * 4);
+}
+/* #endregion Common */
+
+/* #region Body */
+.menu {
+    background-color: var(--bl-orange);
+    height: 100px;
+    text-align: center;
+}
+
+img {
+    max-width: 30%;
+}
+/* #endregion Body */
